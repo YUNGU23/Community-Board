@@ -60,3 +60,5 @@ const data = [
     region: "Italian",
   },
 ];
+
+export default data;
