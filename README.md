@@ -2,7 +2,7 @@
 
 Submitted by: **Yun Gu**
 
-This web app: **insert description**
+This web app: **Global Food Truck Community Board**
 
 Time spent: **4** hours spent in total
 
