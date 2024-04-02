@@ -1,10 +1,17 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import App from './App';
+import FoodTruckDetail from './components/FoodTruckDetail';
+import './index.css'; // Import index.css here
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+const root = createRoot(document.getElementById('root'));
+
+root.render(
+  <Router>
+    <Routes>
+      <Route exact path="/" element={<App />} />
+      <Route path="/food-truck/:truckId" element={<FoodTruckDetail />} />
+    </Routes>
+  </Router>
+);
