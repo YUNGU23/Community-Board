@@ -1,5 +1,5 @@
 // FoodTruckDetail.jsx
-import React, {useState} from 'react';
+import React from 'react';
 import { useParams } from "react-router-dom";
 import truck_data from "../data/data";
 
@@ -21,12 +21,15 @@ function FoodTruckDetail() {
     if (newCounts[index] > 1) {
       newCounts[index] -= 1;
       setMenuCounts(newCounts);
-    }
-  };
+  }
+};
 
   function findById(data, id) {
     return data.find((item) => item.id == id);
   }
+
+  // console.log(">>>>" + truckId);
+  // console.log(truck_data);
 
   const foodTruck = findById(truck_data, truckId);
 

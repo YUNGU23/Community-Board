@@ -49,7 +49,9 @@ function FoodTruckDetail() {
             {item.name} - ${item.price}
             <br></br>
             <button onClick={() => handleDecrease(index)}>-</button>
+            &nbsp;
             {menuCounts[index]}
+            &nbsp;
             <button onClick={() => handleIncrease(index)}>+</button>
           </p>
         ))}

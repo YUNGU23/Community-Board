@@ -36,7 +36,7 @@ h1 {
   color:white;
 }
 
-.menuButton {
+button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -47,7 +47,6 @@ h1 {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-
 button:hover {
   border-color: #646cff;
 }
@@ -65,8 +64,7 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: white;
-    border-radius: 50%;
+    background-color: #ca1e1e;
   }
 }
 

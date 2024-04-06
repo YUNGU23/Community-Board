@@ -50,6 +50,7 @@ function FoodTruckDetail() {
             <br></br>
             <button onClick={() => handleDecrease(index)}>-</button>
             {menuCounts[index]}
+            &nbsp;
             <button onClick={() => handleIncrease(index)}>+</button>
           </p>
         ))}

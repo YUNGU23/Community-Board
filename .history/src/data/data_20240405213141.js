@@ -228,7 +228,7 @@ const data = [
     menu: [
       { name: "Margherita Pizza", price: 10.99, img:"https://www.foodandwine.com/thmb/rtgrkzweNBq5uvWDPjTU3xOTKKk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/margherita-pizza-with-argula-and-prosciutto-FT-RECIPE0721-04368ec288a84d2e997573aca0001d98.jpg" },
       { name: "Spaghetti Carbonara", price: 12.50, img:"https://images.ctfassets.net/3vz37y2qhojh/4B2QkY3grTx5oigHJQou1f/a8326779160ea8024265a87c96923763/Olga_30MnSpgCarbonara_Hero-Horizontal-Olga-Ivanova-V3.jpg?w=927&fit=fill&fm=webp" },
-      { name: "Tiramisu", price: 6.75, img:"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/2/4/2/RX-FNM_030111-Sugar-Fix-005_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1371597326801.jpeg" }
+      { name: "Tiramisu", price: 6.75 }
     ],
     address:"789 Willow Avenue, Morgan Hill, CA 95037",
     latitude:37.3317,
