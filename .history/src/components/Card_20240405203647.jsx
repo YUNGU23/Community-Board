@@ -13,7 +13,7 @@ const Card = (truck) => {
       <img src={truck.img} className="img" />
       <h2 style={{ color: "black" }}>{truck.name}</h2>
       <h4 style={{ color: "black" }}>{truck.region}</h4>
-      <button className="menuButton" onClick={() => goToTruck(truck.id)}>
+      <button className="button" onClick={() => goToTruck(truck.id)} class = 'Button'>
         View Menu
       </button>
     </div>
