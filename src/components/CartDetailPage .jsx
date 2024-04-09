@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLocation, Link, Form } from 'react-router-dom';
-import { loadStripe} from '@stripe/stripe-js';
+// import { loadStripe} from '@stripe/stripe-js';
 
 function CartDetailPage() {
   const location = useLocation();
@@ -65,7 +65,7 @@ function CartDetailPage() {
         </div>
       ))}
       <p style={{ color: 'white', margin: '20px 0' }}>Total: ${totalPrice.toFixed(2)}</p>
-      <button onClick={makepayment} style={{ padding: '10px 20px', fontSize: '16px' }}>Checkout</button> {/* Purchase button */}
+      <button style={{ padding: '10px 20px', fontSize: '16px' }}>Checkout</button> {/* Purchase button */}
       <div style={{ marginTop: '20px' }}>
         <Link to="/" style={{ color: 'white' }}>Back</Link>
       </div>
