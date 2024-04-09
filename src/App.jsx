@@ -7,6 +7,7 @@ import Card from "./components/Card";
 import data from "./data/data";
 import { Auth } from "./pages/auth";
 
+
 function App() {
   const [selectedFoodTruck, setSelectedFoodTruck] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");
